@@ -17,7 +17,7 @@ connectDB()
 const app = express()
 const morganFormat = ":method :url :status :response-time ms";
 app.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://m1-course-frontend-q8st.vercel.app/',
 }))
 app.use(express.json());
 
